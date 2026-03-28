@@ -1,4 +1,4 @@
-# DutAPIv2
+# krisies_tools ;]
 
 PlayEntry.org와 통신하기 위한 헬퍼 API입니다. CSRF/xToken 획득, entrystory 작성(!!) & 조회, 사용자 검색 등을 기존 Plain API 대비 훨씬 간편하게 할 수 있게 해줍니다.
 
