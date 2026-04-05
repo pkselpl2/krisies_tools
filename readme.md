@@ -4,16 +4,8 @@ PlayEntry.org와 통신하기 위한 헬퍼 API입니다. CSRF/xToken 획득, en
 
 ## Start
 
-다운로드 후, Terminal에 아래 명령어를 입력하세요.
 
-```bash
-npm install
-npm run dev   # http://localhost:3000
-```
-
-## Important
-
-- Base URL: `http://localhost:3000`
+- Base URL: `https://krisiestools.vercel.app/api/`
 - 모든 응답은 (아마) JSON으로 전송됩니다.
 - 오류 시 `error`/`message` 필드를 확인하는게 도움 많이될겁니다.
 - 쓰기 API는 CSRF 토큰과 xToken이 모두 필요합니다. `/api/csrftoken` → `/api/xToken` 순으로 호출 후 사용하세요.
